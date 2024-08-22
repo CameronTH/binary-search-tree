@@ -44,7 +44,6 @@ class Tree {
       node.right = this.insert(value, node.right);
     }
 
-    console.log(node);
 
     return node;
   }
@@ -226,21 +225,6 @@ class Tree {
     }
   }
 }
-
-let tree1 = new Tree();
-
-tree1.buildTree([1, 2, 3, 4, 5, 6, 7, 8]);
-
-
-
-tree1.prettyPrint(tree1.root);
-tree1.prettyPrint(tree1.root);
-
-console.log(tree1.height());
-console.log(tree1.isBalanced());
-
-
-tree1.prettyPrint(tree1.root)
 
 
 function createTestArray(size){
